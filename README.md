@@ -65,6 +65,9 @@ data/scripts/                               # helpers for generating embeddings
 docs/embeddings.md                          # quick-start notes
 tools/eval_embeddings_excel.py              # read the Excel summaries
 ```
+The `.npz/.npy` embedding files referenced by these scripts can be recreated
+using the notebooks and utilities stored under `data/scripts/` (see
+`docs/embeddings.md` for guidance).
 
 General assets:
 - `docs/reference_results/` – appendix tables (read-only).

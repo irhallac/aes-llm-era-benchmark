@@ -1,6 +1,7 @@
 # Data and generated artifacts
 /data/**
 !/data/README.md
+!/data/scripts/
 !/data/scripts/**
 
 /checkpoints/**

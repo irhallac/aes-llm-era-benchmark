@@ -9,6 +9,13 @@ The ML pipeline evaluates two score types for each embedding family:
 | `src/ml/per_trait/doc2vec_per_trait.py` | Per-trait regressors with Doc2Vec embeddings learned per fold. |
 | `src/ml/holistic/holistic_svr.py` | Holistic SVR trained on the mean of the six traits using any embedding file. |
 
+## Generating Embeddings
+
+The repo does not ship `.npz` files. Use the helpers under `data/scripts/`
+(`extract_emb*.py`, `create_embeddings_v0.ipynb`, etc.) to rebuild them from
+the Kaggle dataset. Drop the resulting files into `data/embeddings/` (ignored by
+git) and update the paths in the ML scripts accordingly.
+
 Edit the `config` block in each script with your local paths, run it, and collect
 the MAE/QWK outputs under `src/ml/results/`. Summaries can be generated with
 `tools/eval_embeddings_excel.py`.
