@@ -158,6 +158,8 @@ All trait-level tables cited in the paper live under `docs/reference_results/`.
 They are unchanged copies of Appendix B (prompting, fine-tuning, frozen
 embeddings). Use them as the canonical targets when validating new runs.
 
+The latest preprint is available on SSRN: https://ssrn.com/abstract=5699710
+
 ## LLaMA Licensing Notice
 
 This repository includes fine-tuning and evaluation scripts for Meta’s LLaMA
@@ -168,5 +170,6 @@ https://ai.meta.com/resources/models-and-libraries/llama-downloads/
 ## License & Contact
 
 Code in this repository is released under the MIT License; external models and
-datasets retain their original terms. Feel free to open issues or reach out at
-ibrahimrizahallac@live.com if you have questions or would like to collaborate.
+datasets retain their original terms. Feel free to open an issue or reach out via
+https://www.hiof.no/iio/itk/english/people/aca/ibrahimh/ if you have questions
+or would like to collaborate.
