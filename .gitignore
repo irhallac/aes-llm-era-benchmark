@@ -1,0 +1,27 @@
+# Data and generated artifacts
+/data/**
+!/data/README.md
+
+/checkpoints/**
+!/checkpoints/README.md
+
+/ml_results/**
+!/ml_results/README.md
+
+/models/**
+!/models/README.md
+
+/src/prompting/runs/**
+!/src/prompting/runs/README.md
+
+# User-specific configs
+/configs/private/*.yaml
+
+# Large binaries
+*.npz
+*.npy
+*.pt
+*.bin
+*.ckpt
+*.log
+.DS_Store

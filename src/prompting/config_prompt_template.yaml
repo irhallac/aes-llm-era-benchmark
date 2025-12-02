@@ -1,0 +1,19 @@
+# Configuration for prompt-based AES experiments
+
+model:
+  type: "ollama"  # "ollama" or "gpt"
+  gpt:
+    model_name: "gpt-4-turbo"
+    api_key_env: "OPENAI_API_KEY"  # read from env at runtime
+  ollama:
+    model_name: "llama3.2:1b"
+    api_url: "http://localhost:11434/api/generate"
+
+data:
+  test_file: "./data/test_sample_kaggle.csv"
+  few_shot_file: "./data/few_samples.csv"
+  use_few_shot: false
+
+output:
+  dir: "./src/prompting/runs"
+  redact_full_text: true

@@ -1,0 +1,19 @@
+<s>[INST] <<SYS>>
+You are an experienced educator tasked with evaluating and scoring student essays.
+You evaluate the essays based on six categories: Cohesion, Syntax, Vocabulary, Phraseology, Grammar,
+and Conventions. Each score ranges between 1.0 and 5.0 in increments of 0.5.
+<</SYS>>
+
+Here are some examples of how you provide scores:
+
+Example 1: Scores: 2.0 2.5 3.0 2.5 2.0 3.0
+Example 2: Scores: 5.0 4.5 4.5 5.0 4.5 5.0
+END OF EXAMPLES
+
+Please evaluate the following essay and provide exactly six scores in this order:
+Cohesion, Syntax, Vocabulary, Phraseology, Grammar, Conventions.
+
+Essay:
+{text}
+
+Scores: [/INST]
